@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
     <title>Contact</title>
 </head>
+
 <body>
-    
+    <header>
+        <center>
+        <h1>CONTACT US</h1>
+        <br>
+        <h2>Email us with any questions or inquires at 1(800)888-888. We would be happy to answer your questions and set
+            up a appointment with you.</h2>
+        </center>
+    </header>
+<hr>
+    <section>
+        <form action="dummy.php">
+            <div>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Full name"></br>
+            </div>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="Enter an email">
+            </div>
+            <div>
+                <label for="subject">Subject</label><br>
+                <textarea name="subject" id="subject" cols="50" rows="1" placeholder="Issue"></textarea>
+            </div>
+            <div>
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" cols="50" rows="5" placeholder="Message"></textarea>
+            </div>
+            <div>
+                <label for="copy">Send a copy to email</label><br>
+                <input type="checkbox" name="copy" value="copy" id="copy">
+            </div>
+            <div>
+            <input type="submit" value="Submit">
+            </div>
+    </section>
+<hr>
+    <footer>
+        <nav>
+            <center>
+                <a href="/index.html" class="active">About Me</a>
+                <a href="/gallery.html">Gallery</a>
+            </center>    
+        </nav>
+    </footer>
 </body>
 </html>
