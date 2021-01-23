@@ -1,0 +1,31 @@
+@media screen and (max-width: 750px) {
+   
+    /* contact */
+    .container , .bio-em {
+        padding: 5px 5px;
+        margin:-5px;
+    }
+
+    .container h1 {
+        font-size: 1.2rem;
+    }
+   
+   .container .bio-em {
+       font-size:.89rem;
+   }
+   
+    #form input, #form textarea  {
+        max-width:100%;
+    }
+
+    /* gallery */
+
+    #subhead {
+        padding: 7rem;
+    }
+    
+    #bio-meat .brief-bio p.toomuch {
+        display:none;
+    }
+
+}

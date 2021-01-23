@@ -123,7 +123,7 @@ p{
 /* bodies */
 
 #subhead {
-    height: 200px;
+    height: 12.5rem;
     background: #cc735a;
     text-align: center;
     padding-top:3.1rem;
@@ -231,3 +231,41 @@ p{
     background: url("../img/yuyuhaku.jpg") no-repeat center center/cover;
     min-height: 100%;
 }
+
+/* contacts */
+
+#form .form-group {
+    margin-bottom:1.3rem;
+}
+
+#form label {
+    display:block;
+    margin: .5rem;
+}
+
+#form input, #form textarea {
+    width: 50%;
+    padding: .7rem;
+    border: 1px #ddd solid;
+}
+
+#form textarea {
+    height: 12.5rem;
+}
+
+#form input:focus, #form textarea:focus {
+    outline:none;
+    border-color: #db93dd;
+}
+
+#bio-meat .pics img {
+    float:left;
+        display: inline-block;
+        width: 33.3%;
+        height: 400px;
+        object-fit: center;
+    }
+
+
+
+
