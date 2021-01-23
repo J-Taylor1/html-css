@@ -259,7 +259,7 @@ p{
 }
 
 #bio-meat .pics img {
-    float:left;
+        float:left;
         display: inline-block;
         width: 33.3%;
         height: 400px;

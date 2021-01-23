@@ -20,11 +20,12 @@
 
     /* gallery */
 
-    #subhead {
+    /* #subhead {
         padding: 7rem;
     }
-    
-    #bio-meat .brief-bio p.toomuch {
+     */
+
+    #bio-meat .brief-bio p.toomuch , .container p.bio-em {
         display:none;
     }
 
