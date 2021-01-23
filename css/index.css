@@ -180,3 +180,54 @@ p{
     color:rgb(255, 223, 223);
     padding: .8rem;
 }
+
+/* images */
+
+ #bio-meat .lani {
+    float:left;
+    width: 33.3%;
+    background: url("../img/lani.JPG") no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#bio-meat .mclauren {
+    float:left;
+    width: 33.3%;
+    background: url("../img/mclauren.jpg") no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#bio-meat .inception {
+    float:left;
+    width: 33.3%;
+    background: url("../img/inception.jpg") no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#bio-meat .skullkid{
+    float:left;
+    width: 33.3%;
+    background: url("../img/skullkid.jpg") no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#bio-meat .jid {
+    float:left;
+    width: 33.3%;
+    background: url("../img/jid.jfif") no-repeat center center/cover;
+    min-height: 100%;
+} 
+
+#bio-meat .jcole {
+    float:left;
+    width: 33.3%;
+    background: url("../img/jcole.jpg") no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#bio-meat .yuyu {
+    float:left;
+    width: 33.3%;
+    background: url("../img/yuyuhaku.jpg") no-repeat center center/cover;
+    min-height: 100%;
+}
