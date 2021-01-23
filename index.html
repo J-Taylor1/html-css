@@ -4,57 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/index.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap" rel="stylesheet">
-    <title>Bio Page</title>
+    <script src="https://kit.fontawesome.com/0929142551.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <title>About Me</title>
 </head>
-<style>
-    h1 {
-        font-family: 'Darker Grotesque', sans-serif;
-    }
-</style>
+<!-- top -->
 <body>
     <header>
-        <center>
-            <h1>Jerboa Taylor</h1>
-            <h2>Teks Bootcamp Student</h2>
-        </center>
-    </header>
-    <hr>
-    <section>
-        <nav>
-            <ul>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="/contact.html">Contacts</a></li>
-            </ul>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">Bio</a></h1>
+                <ul>
+                    <li><a class="current" href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
         </nav>
-    </section>
-    <hr>
-    <section>
-        <h3>About Me...</h3>
-        <!-- 3-4 brief sentences -->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quidem libero repellendus numquam dicta
-            corporis ipsa soluta nemo, vitae deserunt officiis facere ex nesciunt aliquam, dignissimos, beatae
-            architecto rerum minima dolores sequi illum laborum quae optio? Natus, mollitia eligendi possimus voluptate
-            nisi modi? Ipsa ratione asperiores error corporis cupiditate odit veniam nulla a voluptate aliquid possimus
-            soluta molestiae officiis inventore accusamus, doloremque eius alias repudiandae officia atque facere ipsum!
-            Quidem suscipit corporis obcaecati exercitationem dolore saepe voluptas. Voluptate nobis optio distinctio!
-            Excepturi vitae reiciendis optio reprehenderit repellat. Culpa, quaerat eius quia, porro ipsam commodi,
-            deserunt voluptas accusantium incidunt labore magni!</p>
-        
-        <aside>
-            <img src="" alt="Picture of Me">
-        </aside>
-        <!-- 4-6 hobbies lies /dislikes -->
-        <ul>
-            <li>Sleeping</li>
-            <li>Eating</li>
-            <li>Family</li>
-            <li>Learning</li>
-        </ul>
+<!-- mid -->
+        <div id="subhead">
+            <div class="container">
+                <h1>A Little <span class="navtext">About Me...</span></h1>
+                <p class="bio-em">Currently Fullstack Web Development Via A Bootcamp Offered By Teksystem</p>
+            </div>
+        </div>
+    </header>
+<!-- mid low -->
+    <section id="bio-meat" class="bg-light">
+        <!-- Pic -->
+        <div class="img-left"></div>
+
+        <div class="brief-bio">
+            <h2>Jerboa Taylor</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, pariatur vitae eius saepe mollitia
+                quaerat maiores atque nobis error, corrupti eligendi. Vitae ab id illum.</p>
+            <a class="btn" href="gallery.html">Gallery</a>
+        </div>
     </section>
 
+    <!-- Likes & Dislikes section? -->
+
+    <section id="likes">
+        <div class="likesh bg-main"><h3>Likes</h3></div>
+        <div class="box bg-light">
+            <i class="fas fa-tv fa-2x"></i>
+            <h3>Watching Anime</h3>
+            <!-- <p>Grew up watching anime big part of childhood</p> -->
+        </div>
+    <section id="likes">
+        <div class="box bg-dark">
+            <i class="fas fa-dumbbell fa-2x"></i>
+            <h3>Gym</h3>
+            <!-- <p>Before covid I was actively in the gym</p> -->
+        </div>
+    <section id="likes">
+        <div class="box bg-light">
+            <i class="fab fa-playstation fa-2x"></i>
+            <h3>Team Sony</h3>
+            <!-- <p>I don't play the game as much but feel free to add me if you wish</p> -->
+        </div>
+    </section>
+
+
+
+    <!-- Footer maybe add logos? -->
+    <footer id="main-footer">
+        <p> 123 Main Street, Fort Worth,Texas 76119 </p>
+    </footer>
 </body>
-
 </html>
