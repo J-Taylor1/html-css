@@ -259,13 +259,19 @@ p{
 }
 
 #bio-meat .pics img {
-        float:left;
-        display: inline-block;
+        float: left;
+        display: block;
         width: 33.3%;
         height: 400px;
         object-fit: center;
     }
 
-
+    #bio-meat .pics2 img {
+        float: left;
+        display: block;
+        width: 33.3%;
+        height: 400px;
+        object-fit: center;
+    }
 
 
