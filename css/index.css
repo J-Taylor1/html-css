@@ -35,7 +35,7 @@ p{
 
 
 .navtext {
-    color:rgba(219, 44, 211, 0.733);
+    color:rgba(216, 175, 100, 0.733);
 }
 
 .bio-em {
@@ -45,31 +45,31 @@ p{
 .btn {
     display:inline-block;
     font-size: 1.2rem;
-    color: #774579;
-    background:#E27D60;
+    color: #fffeda;
+    background:#950740;
     padding: .7rem 1.12rem;
     border:none;
     cursor:pointer;
 }
 
 .btn:hover {
-    background:#e26060;
+    background:#c3073f;
     color:#95ece1;
 }
 
 .bg-dark {
-    background: #d1785f;
-    color:#95ece1;
+    background: #1a1a1d;
+    color:#950740;
 }
 
 .bg-light {
-    background:#95ece1;
-    color: #d1785f;
+    background:#6f2232;
+    color: #1a1a1d;
 }
 
 .bg-main {
-    background:#C38d9e;
-    color:rgb(53, 7, 7)
+    background:#950740;
+    color:rgb(221, 163, 163);
 }
 
 
@@ -85,7 +85,7 @@ p{
 /* Navigation */
 
 #navbar {
-    background: #7ecac0;
+    background: #1a1a1d;
     color: azure;
     overflow:auto;
 }
@@ -116,15 +116,15 @@ p{
 }
 
 #navbar ul li a:hover, #navbar ul li a.current {
-    background: #E27D60;
-    color: #55f1dd;
+    background: #c3073f;
+    color: #9c9cad;
 }
 
 /* bodies */
 
 #subhead {
     height: 12.5rem;
-    background: #cc735a;
+    background: #a32a42;
     text-align: center;
     padding-top:3.1rem;
 }
@@ -137,7 +137,7 @@ p{
 #bio-meat .img-left {
     float:left;
     width: 50%;
-    background: url("../img/jt2.jpg") no-repeat center center/cover;
+    background: url("../img/jt.jpg") no-repeat center center/cover;
     min-height: 100%;
 }
 
@@ -176,7 +176,7 @@ p{
 
 #main-footer {
     text-align:center;
-    background: #68ada4;
+    background: #1a1a1d;
     color:rgb(255, 223, 223);
     padding: .8rem;
 }
