@@ -265,6 +265,10 @@ p{
         height: 400px;
     }
 
+.clr-img {
+    display:none;
+}
+
 @media screen and (max-width: 830px) {
 
         body #bio-meat .pics img {
@@ -273,6 +277,13 @@ p{
             width: 50%;
             height: 400px;
         }
+
+        body #bio-meat .clr-img {
+            display:inline-block;
+            clear:both;
+        }
+
+
  }
 
  @media screen and (max-width: 550px) {
