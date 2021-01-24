@@ -265,6 +265,13 @@ p{
         height: 400px;
     }
 
+ #bio-meat .pics2 img {
+        float: left;
+        display: block;
+        width: 50%;
+        height: 639px;
+    }
+
 .clr-img {
     display:none;
 }
@@ -274,7 +281,7 @@ p{
         body #bio-meat .pics img {
             float: left;
             display: inline-block;
-            width: 50%;
+            width: 100%;
             height: 400px;
         }
 
@@ -283,6 +290,20 @@ p{
             clear:both;
         }
 
+
+        #bio-meat .brief-bio {
+            float:right;
+            width: 100%;
+            height: auto;
+            text-align: center;
+            overflow:auto;
+        }
+
+        #bio-meat .pics2 img {
+            float: left;
+            display: block;
+            width: 100%;
+        }
 
  }
 
