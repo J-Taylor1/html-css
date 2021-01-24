@@ -295,6 +295,10 @@ p{
         height: 400px;
         margin: .5px
     }
+
+    body header #subhead .container p.bio-em {
+        display:none;
+    }
 }
 
 
