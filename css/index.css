@@ -1,0 +1,324 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.3rem;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+h1,h2,h3 {
+    padding-bottom: 1.3rem;
+}
+
+p{
+    margin:.7rem;
+}
+
+/* UseAGAIN */
+
+
+
+.container {
+    margin:auto;
+    max-width: 100%;
+    overflow:auto;
+    padding: 0 1.3rem;
+}
+
+
+.navtext {
+    color:rgba(216, 175, 100, 0.733);
+}
+
+.bio-em {
+    font-size: 1.1rem;
+}
+
+.btn {
+    display:inline-block;
+    font-size: 1.2rem;
+    color: #fffeda;
+    background:#950740;
+    padding: .7rem 1.12rem;
+    border:none;
+    cursor:pointer;
+}
+
+.btn:hover {
+    background:#c3073f;
+    color:#95ece1;
+}
+
+.bg-dark {
+    background: #1a1a1d;
+    color:#950740;
+}
+
+.bg-light {
+    background:#6f2232;
+    color: #1a1a1d;
+}
+
+.bg-main {
+    background:#950740;
+    color:rgb(221, 163, 163);
+}
+
+
+.btn-main {
+    background:rgb(134, 91, 91);
+    color:#fff;
+}
+
+.clr {
+    clear:both;
+}
+
+/* Navigation */
+
+#navbar {
+    background: #1a1a1d;
+    color: azure;
+    overflow:auto;
+}
+
+#navbar a {
+    color:#ff0b55c9;
+}
+
+#navbar h1 {
+    text-transform: uppercase;
+    float:left;
+    padding-top:1.3rem;
+}
+
+#navbar ul {
+    list-style:none;
+    float:right;
+}
+
+#navbar ul li{
+    float:left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 1.3rem;
+    text-align: center;
+}
+
+#navbar ul li a:hover, #navbar ul li a.current {
+    background: #c3073f;
+    color: #9c9cad;
+}
+
+/* bodies */
+
+#subhead {
+    height: 12.5rem;
+    background: #a32a42;
+    text-align: center;
+    padding-top:3.1rem;
+}
+
+/* MEDIA QUERY img? */
+#bio-meat {
+    height: 40em;
+}
+
+#bio-meat .img-left {
+    float:left;
+    width: 50%;
+    background: url("../img/jt2.jpg") no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#bio-meat .brief-bio {
+    float:right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 3.12rem 1.87rem;
+    overflow:hidden;
+}
+
+/* likes and dislikes ? */
+
+.box {
+    float:left;
+    width: 33.3%;
+    padding: 3.1rem;
+    text-align: center;
+    height: 11rem;;
+}
+
+.box i {
+    margin-bottom: .8rem;
+}
+
+#likes .likesh {
+    text-align: center;
+    width:100%;
+    padding-top: 1rem;
+}
+
+
+
+/* bottom */
+
+#main-footer {
+    text-align:center;
+    background: #1a1a1d;
+    color:rgb(255, 223, 223);
+    padding: .8rem;
+}
+
+/* images */
+
+ #bio-meat .lani {
+    float:left;
+    width: 33.3%;
+    background: url("../img/lani.JPG") no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#bio-meat .mclauren {
+    float:left;
+    width: 33.3%;
+    background: url("../img/mclauren.jpg") no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#bio-meat .inception {
+    float:left;
+    width: 33.3%;
+    background: url("../img/inception.jpg") no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#bio-meat .skullkid{
+    float:left;
+    width: 33.3%;
+    background: url("../img/skullkid.jpg") no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#bio-meat .jid {
+    float:left;
+    width: 33.3%;
+    background: url("../img/jid.jfif") no-repeat center center/cover;
+    min-height: 100%;
+} 
+
+#bio-meat .jcole {
+    float:left;
+    width: 33.3%;
+    background: url("../img/jcole.jpg") no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#bio-meat .yuyu {
+    float:left;
+    width: 33.3%;
+    background: url("../img/yuyuhaku.jpg") no-repeat center center/cover;
+    min-height: 100%;
+}
+
+/* contacts */
+
+#form .form-group {
+    margin-bottom:1.3rem;
+}
+
+#form label {
+    display:block;
+    margin: .5rem;
+}
+
+#form input, #form textarea {
+    width: 50%;
+    padding: .7rem;
+    border: 1px #ddd solid;
+}
+
+#form textarea {
+    height: 12.5rem;
+}
+
+#form input:focus, #form textarea:focus {
+    outline:none;
+    border-color: #db93dd;
+}
+
+#bio-meat .pics img {
+        float: left;
+        display: block;
+        width: 33.3%;
+        height: 400px;
+    }
+
+ #bio-meat .pics2 img {
+        float: left;
+        display: block;
+        width: 50%;
+        height: 639px;
+    }
+
+.clr-img {
+    display:none;
+}
+
+@media screen and (max-width: 830px) {
+
+        body #bio-meat .pics img {
+            float: left;
+            display: inline-block;
+            width: 50%;
+            height: 400px;
+        }
+
+        body #bio-meat .clr-img {
+            display:inline-block;
+            clear:both;
+        }
+
+
+        #bio-meat .brief-bio {
+            float:right;
+            width: 100%;
+            height: auto;
+            text-align: center;
+            overflow:auto;
+        }
+
+        #bio-meat .pics2 img {
+            float: left;
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+ }
+
+ @media screen and (max-width: 550px) {
+
+    body #bio-meat .pics img {
+        float: left;
+        display: inline-block;
+        width: 100%;
+        height: 400px;
+        margin: .5px
+    }
+
+    body header #subhead .container p.bio-em {
+        display:none;
+    }
+}

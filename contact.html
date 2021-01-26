@@ -1,11 +1,69 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="./css/500widthimg.css">
+    <link rel="stylesheet" href="./css/index.css">
+  
+    <title>Call Me</title>
 </head>
+
 <body>
-    
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="contact.html">Contact</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a class="current" href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <body>
+            <header>
+                <center>
+                <div id="subhead">
+                    <div class="container">
+                        <h1>A Little Way To<span class="navtext"> Contact Me...</span></h1>
+                        <p class="bio-em">Email me with any questions or inquires at 1(800)888-888.</p>
+                    </div>
+                </div>
+            </header>
+
+        <section id="form">
+            <div class="container bg-light">
+                <form action="dummy.php">
+                
+                    <div class="form-group">
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="name" placeholder="Full name"></br>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email" placeholder="Enter an email">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label><br>
+                        <input name="subject" id="subject" cols="50" row="1" placeholder="Issue"></input>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label><br>
+                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                    </div>
+                    <div>
+                    <button type="submit" value="Submit" class="btn">Submit</button>
+                    </div>
+            </div>
+        </section>
+        
+    <footer id="main-footer">
+        <p> 123 Main Street, Fort Worth,Texas 76119 </p>
+    </footer>
 </body>
 </html>
